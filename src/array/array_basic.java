@@ -23,8 +23,8 @@ public class array_basic {
             MathScores2[i] = i * 10 + 50;
         }
         //        MathScores2[0] = 50
-//        MathScores2[1] = 60
-//        MathScores2[4] = 90
+        //        MathScores2[1] = 60
+        //        MathScores2[4] = 90
 
         for (int i = 0; i < MathScores2.length; i++) {
             System.out.println(MathScores2[i]);
@@ -32,11 +32,7 @@ public class array_basic {
 
         //배열의 복사 SKIP
 
-
-
         char [] MathGrades = new char[5];
 
-
-        
     }
 }

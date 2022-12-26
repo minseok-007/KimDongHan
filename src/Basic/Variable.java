@@ -27,6 +27,7 @@ public class Variable {
         c = d; // c = 20 d = 20
         d = tmp; // d = 10
 
+
         // Variable naming principle
         /*
         1. 대소문자 구분 (age랑 Age는 다른 variable), 길이 제한 X
