@@ -12,6 +12,7 @@ class TV {
     boolean power; // on or off
     int channel;
 
+
     //전원을 끄거나 키는 method
     void power() {
         power = !power; //true --> false / false --> true
