@@ -7,6 +7,7 @@ public class Variable_type {
     //float, double (Real number)
     //final
 
+    final int WIDTH = 10; // final 붙은 variable은 initialize 안해주면 에러 뜸.
     public static void main(String[] args) {
         boolean isMale = true;
         System.out.println(isMale);
@@ -17,6 +18,24 @@ public class Variable_type {
 
         char c = 'a';
         System.out.println(c);
+
+        //문자열 (원래 클래스이므로 객체를 생성하는 연산자 new를 사용해야 하지만, 그러지 않아도 됨)
+
+        String name = new String("Java");
+        String name2 = "Java17";
+
+        //출력
+        System.out.printf("age:%d, year:%d", 14, 2014); // %d자리에 숫자가 차례대로 들어감
+        System.out.println("age: " + 14 + "year: " + 2014);
+
+        /*
+        %d: 10진수 정수
+        %b: boolean
+        %f: 10진수 실수
+
+         */
+
+
     }
 
 }

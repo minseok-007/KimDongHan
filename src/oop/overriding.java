@@ -25,6 +25,8 @@ class Point {
 class Point3D extends Point {
     int z;
 
+    //(1,3,2) --> x: 1, y: 3, z: 2
+
     Point3D(int x, int y, int z) {
         super(x, y);
         this.z = z;
