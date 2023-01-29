@@ -39,16 +39,47 @@ public class If_statements {
 
         //Scanner, println
 
+        /*
 
         Scanner keyboard  = new Scanner(System.in);
         int input = keyboard.nextInt();
-
-        for (int i = 0; i < input; i++) {
-            for (int j = 0; j < i + 1 ; j++) {
-                
+        int num = 1;
+        for (int i = 1; i <= input; i++) {
+            for (int j = 1; j <= i ; j++) {
+                System.out.print(num+ " ");
+                num++;
             }
+            System.out.println();
         }
 
 
+         */
+
+        // Write a program that prompts the user to input a positive integer. It should then print the multiplication table of that number.
+
+
+        
+        // 2 x 1 = 2
+        // 2 x 2 = 4
+
+        /*
+        Scanner keyboard = new Scanner(System.in);
+        int num = keyboard.nextInt();
+
+        for (int i = 1; i <= 9; i++) {
+            System.out.println(num + "x" + i + "=" + num*i );
+        }
+
+         */
+
+        //Write a program that prompts the user to input an integer and
+        // then outputs the number with the digits reversed. For example, if the input is 12345, the output should be 54321.
+
+        Scanner keyboard = new Scanner(System.in);
+        int num = keyboard.nextInt();
+
+
+
     }
+
 }
