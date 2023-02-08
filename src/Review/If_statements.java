@@ -75,8 +75,61 @@ public class If_statements {
         //Write a program that prompts the user to input an integer and
         // then outputs the number with the digits reversed. For example, if the input is 12345, the output should be 54321.
 
+        /*
+        Scanner keyboard = new Scanner(System.in);
+        int num = keyboard.nextInt(); //
+
+        //54321
+        int rev_num = 0; //54321
+
+        while (num > 0) {
+            rev_num = rev_num * 10 + num % 10; // 54321
+            num = num / 10;
+        }
+
+         */
+
+        // Given the number from the console, find the number of its factors!
+
+        /*
         Scanner keyboard = new Scanner(System.in);
         int num = keyboard.nextInt();
+
+        int count = 0;
+
+        for (int i = 1; i <= num; i++) {
+            if (num % i == 0) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+
+         */
+
+        //Take integer inputs from user until he/she presses q ( Ask to press q to quit after every integer input ). Print average of all numbers.
+
+
+        Scanner keyboard = new Scanner(System.in);
+        String choice = "";
+        int sum = 0;
+        double average = 0;
+        int count = 0;
+
+        while(!choice.equals("q")) {
+            System.out.println("Press q to quit");
+            choice = keyboard.next(); //"3" --> 3
+
+            if (!choice.equals("q")) {
+                int number = Integer.parseInt(choice);
+                sum += number;
+                count++;
+            }
+        }
+
+        System.out.println(sum / count);
+
+
 
 
 

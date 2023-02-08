@@ -42,5 +42,4 @@ public class operator {
         // 2 4 6 8 10 / 3 6 9 12 15 18
         // multiple of 2 or 3 --> (num % 2 == 0 || num % 3 == 0)
     }
-
 }
