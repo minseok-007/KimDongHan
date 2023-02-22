@@ -50,11 +50,31 @@ public class Array_practice {
 
         // Write a Java program to find the number of even and odd integers in a given array of integers
 
-        int arr[] = {2,6,7,5,6,19,44,231,21};
-int count = 0;
+        /*
+        int arr[] = {2, 6, 7, 5, 6, 19, 44, 231, 21};
+        int count_odd = 0;
+        int count_even = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 0)
-              count++;
+            if (arr[i] % 2 == 0) {
+
+
+                count_even++;
+            }
+            if (arr[i] % 2 == 1) {
+
+
+                count_odd++;
+            }
+        }
+        System.out.println(count_even);
+        System.out.println(count_odd);
+        */
+
+
+        //Write a java program that prints out the maximum sum of two elements from the array
+
+        int arr[] = {1,4,5,3,8,9,7};
+        
 
 
     }
