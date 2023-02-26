@@ -73,9 +73,37 @@ public class Array_practice {
 
         //Write a java program that prints out the maximum sum of two elements from the array
 
+        /*
         int arr[] = {1,4,5,3,8,9,7};
-        
+
+        int max = 0;
+        for (int i = 0; i < arr.length-1 ; i++) {
+            for (int j = i+1; j < arr.length; j++) {
+                if (arr[i] + arr[j] > max) {
+                    max = arr[i] + arr[j];
+                }
+            }
+        }
+
+        System.out.println(max);
 
 
+         */
+
+        // Write a Java program to get the difference
+        // between the largest and smallest values in an array of integers.
+
+        int arr[] = {1, 4, 5, 3, 8, 9, 7};
+
+        int min = 0;
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] - arr[j] > min) {
+                    min = arr[i] - arr[j];
+
+
+                }
+            }
+        }
     }
 }
