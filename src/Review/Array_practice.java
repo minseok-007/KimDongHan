@@ -94,16 +94,23 @@ public class Array_practice {
         // between the largest and smallest values in an array of integers.
 
         int arr[] = {1, 4, 5, 3, 8, 9, 7};
+        // arr[0] = 1, arr[1] = 4, arr[2] = 5, arr[3] = 3
 
-        int min = 0;
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] - arr[j] > min) {
-                    min = arr[i] - arr[j];
+        int max = 0;
+        int min = 10000000;
+        int diff = 0;
+        for (int i = 0; i < arr.length ; i++) {
+            if (arr[i] > max){
+                max = arr[i];
+            }
+            if (arr[i] < min) {
+                min = arr[i];
 
-
-                }
             }
         }
+        diff = max - min;
+        System.out.println(diff);
+
+
     }
 }
