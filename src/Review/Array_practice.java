@@ -93,9 +93,10 @@ public class Array_practice {
         // Write a Java program to get the difference
         // between the largest and smallest values in an array of integers.
 
-        int arr[] = {1, 4, 5, 3, 8, 9, 7};
+        //int arr[] = {1, 4, 5, 3, 8, 9, 7};
         // arr[0] = 1, arr[1] = 4, arr[2] = 5, arr[3] = 3
 
+        /*
         int max = 0;
         int min = 10000000;
         int diff = 0;
@@ -110,6 +111,47 @@ public class Array_practice {
         }
         diff = max - min;
         System.out.println(diff);
+
+         */
+
+
+        // Write a java program to compute the average value of an array of integers
+        // except the largest and smallest values.
+
+        /*
+        int arr[] = {1, 4, 5, 3, 8, 9, 7};
+
+        int min = 0;
+        int max = 0;
+        double avg = 0;
+        int sum = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+
+        }
+        avg = (double)(sum - max - min) / (arr.length - 2);
+
+        System.out.println(avg);
+
+         */
+
+
+        //Write a Java program to reverse an array of integer values
+
+        int arr[] = {1, 4, 5, 3, 8, 9, 7};
+
+        for (int i = 0; i<arr.length; i++) {
+
+        }
+
 
 
     }
