@@ -143,16 +143,24 @@ public class Array_practice {
 
          */
 
+        // x = 2, y = 3
+        // x = y; y = x;
+
+
 
         //Write a Java program to reverse an array of integer values
 
-        int arr[] = {1, 4, 5, 3, 8, 9, 7};
+        int arr[] = {1, 4, 5, 3, 8, 9, 7}; // 7 9 8 3 5 4 1
 
-        for (int i = 0; i<arr.length; i++) {
 
+        for (int i = 0; i<arr.length / 2; i++) {
+            int temp = arr[i];
+            arr[i] = arr[arr.length - i - 1]; // arr[0] = arr[6]; --> a = 1;
+            arr[arr.length - i - 1] = temp; // arr[6] = arr[0]
         }
 
-
-
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
     }
 }
