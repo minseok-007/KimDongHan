@@ -57,3 +57,31 @@ public class while_statement {
         System.out.println(sum);
     }
 }
+
+
+/*
+Operator:
+
+Types of operator:
+
+
+ex)
+
+int a = 10;
+int b = 20;
+int c = a * b;
+
+if (condition 1) {
+} else if (condition 2) {
+} else {
+}
+
+ex)
+
+int age = 30;
+if (age < 20) {
+    System.out.println("You are a child");
+} else {
+    System.out.println("You are an adult");
+}
+ */

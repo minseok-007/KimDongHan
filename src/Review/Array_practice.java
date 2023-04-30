@@ -51,7 +51,7 @@ public class Array_practice {
         // Write a Java program to find the number of even and odd integers in a given array of integers
 
         /*
-        int arr[] = {2, 6, 7, 5, 6, 19, 44, 231, 21};
+        int arr[] ㅇ= {2, 6, 7, 5, 6, 19, 44, 231, 21};
         int count_odd = 0;
         int count_even = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -90,6 +90,10 @@ public class Array_practice {
 
          */
 
+
+
+
+
         // Write a Java program to get the difference
         // between the largest and smallest values in an array of integers.
 
@@ -98,7 +102,7 @@ public class Array_practice {
 
         /*
         int max = 0;
-        int min = 10000000;
+        int min = 1000000;
         int diff = 0;
         for (int i = 0; i < arr.length ; i++) {
             if (arr[i] > max){
@@ -148,15 +152,16 @@ public class Array_practice {
 
 
 
+
+
         //Write a Java program to reverse an array of integer values
 
-        int arr[] = {1, 4, 5, 3, 8, 9, 7}; // 7 9 8 3 5 4 1
-
+        int arr[] = {1, 4, 5, 3, 8, 9, 7};
 
         for (int i = 0; i<arr.length / 2; i++) {
             int temp = arr[i];
-            arr[i] = arr[arr.length - i - 1]; // arr[0] = arr[6]; --> a = 1;
-            arr[arr.length - i - 1] = temp; // arr[6] = arr[0]
+            arr[i] = arr[arr.length - i - 1];
+            arr[arr.length - i - 1] = temp;
         }
 
         for (int i = 0; i < arr.length; i++) {
