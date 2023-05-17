@@ -1,11 +1,11 @@
 package Review;
-
+// 보류
 public class Array_practice3 {
     public static void main(String[] args) {
         //Given two sorted arrays, find the median of the values of two arrays.
 
         int arr1[] = {1,3,5,7, 8, 10, 12};
-        int arr2[] = {1,2,3,6, 14,16, 20};
+        int arr2[] = {2,2,3,6, 14,16, 20};
 
         //1 2 3
         //4 5 6
@@ -19,18 +19,10 @@ public class Array_practice3 {
             if (arr1[arr1Index] >= arr2[arr2Index]) { // arr1[arr1Index]:  /    arr2[arr2Index]:
                 arr3[count] = arr2[arr2Index];
 
+            } else {
+                arr3[count] = arr1[arr1Index];
             }
+            count++;
         }
-
-
-
-
-
-
-
-
-
-
-
     }
 }
