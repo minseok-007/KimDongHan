@@ -112,6 +112,7 @@ public class Array_practice {
                 min = arr[i];
 
             }
+
         }
         diff = max - min;
         System.out.println(diff);

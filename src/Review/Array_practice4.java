@@ -23,7 +23,17 @@ public class Array_practice4 {
 
         // bmi 18.5 이하면 저체중, 18.5 - 22.9 사이면 정상, 23.0 - 24.9 사이면 과체중, 25이상부터는 비만
         // Find the number of 저체중, 정상, 과체중, and 비만
+        int underweightCount = 0;
+        int averageCount = 0;
 
-        for ()
+
+        for (int i = 0; i < 5; i++){
+        double bmivalue = bmi[i];
+        if (bmivalue < 18.5){
+          underweightcount++;
+        }
+        else if (bmivalue >= 18.5 && bmivalue <=22.9){
+
+        }
     }
 }

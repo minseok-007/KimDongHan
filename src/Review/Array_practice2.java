@@ -11,6 +11,8 @@ public class Array_practice2 {
         Display all arrays in a neat tabular format.
 
          */
+
+
         int [] arrayTotal = new int[8];
         char [] grade = new char [8];
         int count = 0;
@@ -48,9 +50,20 @@ public class Array_practice2 {
             /*
             arrayTotal[0] = math[0]+Chem[0]= 20
             arrayTotal[1] = 40
-            arrayTotal[2] = 60
+            arrayTotal[2] = 60s
              */
         }
+
+        System.out.println(count);
+
+        /*
+        total > 90: A
+        total > 80: B
+        total > 70: C
+        total > 60: D
+        total < 60: F
+         */
+
 
         /*
                 math    chem    total   grade
