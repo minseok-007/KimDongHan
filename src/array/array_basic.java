@@ -1,6 +1,6 @@
 package array;
 
-public class array_basic {
+public class  array_basic {
     public static void main(String[] args) {
         //같은 타입의 여러 변수를 하나의 묶음으로 다루는 것
         //Array is a data structure that forms different values of same
@@ -14,7 +14,7 @@ public class array_basic {
         MathScores[4] = 30;
 
         int [] MathScores2 = {100, 50, 70, 80, 30};
-        // System.out.println(MathScores2[0]);
+        // System.out.println(MhScores2[0]);
         // System.out.println(MathScores2[1]);
         // System.out.println(MathScores2[2]);
 

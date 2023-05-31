@@ -25,15 +25,25 @@ public class Array_practice4 {
         // Find the number of 저체중, 정상, 과체중, and 비만
         int underweightCount = 0;
         int averageCount = 0;
+        int overweightCount = 0;
+        int obeseCount = 0;
 
 
         for (int i = 0; i < 5; i++){
         double bmivalue = bmi[i];
         if (bmivalue < 18.5){
-          underweightcount++;
+            underweightCount++;
         }
-        else if (bmivalue >= 18.5 && bmivalue <=22.9){
-
-        }
+        }else if (bmivalue >= 18.5 && bmivalue <=22.9){
+            int averageCount = 0;
+        } else if (bmivalue >= 23.0 && bmivalue <= 24.9) {
+            overweightCount++;
+        }else {
+            obeseCount++;
     }
+
+        System.out.println("Number of underweight people: " + underweightCount);
+        System.out.println("Number of average people: " + averageCount);
+        System.out.println("Number of overweight people: " + overweightCount);
+        System.out.println("Number of obese people: " + obeseCount);
 }
