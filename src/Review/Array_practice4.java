@@ -29,19 +29,18 @@ public class Array_practice4 {
         int obeseCount = 0;
 
 
-        for (int i = 0; i < 5; i++){
-        double bmivalue = bmi[i];
-        if (bmivalue < 18.5){
-            underweightCount++;
+        for (int i = 0; i < 5; i++) {
+            double bmivalue = bmi[i];
+            if (bmivalue < 18.5) {
+                underweightCount++;
+            } else if (bmivalue >= 18.5 && bmivalue <= 22.9) {
+                averageCount++;
+            } else if (bmivalue >= 23.0 && bmivalue <= 24.9) {
+                overweightCount++;
+            } else {
+                obeseCount++;
+            }
         }
-        }else if (bmivalue >= 18.5 && bmivalue <=22.9){
-            int averageCount = 0;
-        } else if (bmivalue >= 23.0 && bmivalue <= 24.9) {
-            overweightCount++;
-        }else {
-            obeseCount++;
-    }
-
         System.out.println("Number of underweight people: " + underweightCount);
         System.out.println("Number of average people: " + averageCount);
         System.out.println("Number of overweight people: " + overweightCount);
