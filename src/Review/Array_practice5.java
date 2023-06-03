@@ -11,9 +11,18 @@ public class Array_practice5 {
 
         System.out.println("Enter 5 country names:");
         for (int i = 0; i < countries.length; i++) {
-            countries[i] = keyboard
+            countries[i] = keyboard.next();
+        }
+
+
+        // 5개의 국가 출력하기 --> Instead of just printing, ask user with the format "What's the capital city of" + each country? and let the user to type capital city and store it inside the new array capital.
+        //System.out.println("The country names are:");
+        for(int i = 0; i < countries.length; i++) {
+            System.out.println("Whats the capital city of " + countries[i]);
 
         }
+
+
 
 
         // Make another array that stores the capital city of each country and ask user to type in.
