@@ -15,16 +15,20 @@ public class Array_practice5 {
         }
 
 
-        // 5개의 국가 출력하기 --> Instead of just printing, ask user with the format "What's the capital city of" + each country? and let the user to type capital city and store it inside the new array capital.
+        // 5개의 국가 출력하기 --> Instead of just printing, ask user with the format "What's the capital city of" + each country?
+        // and let the user to type capital city and store it inside the new array capital.
         //System.out.println("The country names are:");
+
+        String[] capitals = new String[5];
         for(int i = 0; i < countries.length; i++) {
             System.out.println("Whats the capital city of " + countries[i]);
 
         }
 
-
-
-
+        // Print out in the form of Country: Capital city (ex: Korea: Seoul)
+        for(int i = 0; i< countries.length; i++) {
+            System.out.println(countries[i] + ": " + capitals[i]);
+        }
         // Make another array that stores the capital city of each country and ask user to type in.
         // Make also another array that stores each country's GDP ranking and after that find the country with the
         //highest GDP
