@@ -25,14 +25,8 @@ public class Pratice1 {
 
             }
         }
-            System.out.println("The Longest Names is" + max);
 
-
-
-
-
-
-
+        System.out.println("The Longest Names is " + LongestName);
 
     }
 }
