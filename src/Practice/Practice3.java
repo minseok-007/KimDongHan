@@ -16,23 +16,19 @@ public class Practice3 {
     public static void main(String[] args) {
         int[][] array = { {1,2,3},{-1,-2,-3},{4,5,6} };
 
+        // Find the Row with the largest sum
         int numrows = array.length;
         int sum = 0;
+        int maxSum = 0;
 
         for(int i = 0; i < numrows; i++){
             for(int j = 0; j < numrows; j++){
                 if
 
+                
             }
 
         }
 
-
-
-
-
-
-
-        
     }
 }
